@@ -67,7 +67,6 @@ body {
 }
 #code .keyword {
 	color: #3498DB;
-	text-align: center;
 	font-weight: bold
 }
 #code .placeholder {
