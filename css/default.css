@@ -5,47 +5,38 @@ body {
 	font-size: 12px;
 	overflow: auto
 }
-
 #mainDiv {
 	width: 100%;
 	height: 100%
 }
-
 #loveHeart {
 	float: left;
 	width: 670px;
 	height: 625px
 }
-
 #garden {
 	width: 100%;
 	height: 100%
 }
-
 #elapseClock {
 	text-align: center;
 	font-size: 18px;
 	margin-top: 10px;
 	margin-bottom: 10px
 }
-
-/*心里面的字*/
 #words {
 	font-family: "Monaco";
 	width: 521px;
 	font-size: 22px;
 	color: #000
 }
-
 #messages {
 	display: none
 }
-
 #elapseClock .digit {
 	font-family: "digit";
 	font-size: 36px
 }
-
 #loveu {
 	padding: 5px;
 	font-size: 22px;
@@ -54,17 +45,14 @@ body {
 	text-align: right;
 	display: none
 }
-
 #loveu .signature {
 	margin-top: 10px;
 	font-size: 20px;
 	font-style: italic
 }
-
 #clickSound {
 	display: none
 }
-
 #code {
 	float: left;
 	width: 470px;
@@ -74,29 +62,23 @@ body {
 	font-size: 15px;
 	line-height: 1.5
 }
-
 #code .string {
 	color: #2a36ff
 }
-
 #code .keyword {
 	color: #3498DB;
 	text-align: center;
 	font-weight: bold
 }
-
 #code .placeholder {
 	margin-left: 15px
 }
-
 #code .space {
 	margin-left: 7px;
 }
-
 #code .comments {
 	color: #000
 }
-
 #copyright {
 	margin-top: 10px;
 	text-align: center;
@@ -112,7 +94,6 @@ body {
 	top: 100px;
 	left: 0
 }
-
 #copyright a {
 	color: #666
 }
