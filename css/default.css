@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-    background: #7734DB;
+	background: #FCF3CF;
 	font-size: 12px;
 	overflow: auto
 }
@@ -23,17 +23,18 @@ body {
 }
 
 #elapseClock {
-	text-align: right;
+	text-align: center;
 	font-size: 18px;
 	margin-top: 10px;
 	margin-bottom: 10px
 }
 
+/*心里面的字*/
 #words {
-	font-family: "sans-serif";
-	width: 550px;
+	font-family: "Monaco";
+	width: 521px;
 	font-size: 22px;
-    color: #000
+	color: #000
 }
 
 #messages {
@@ -66,9 +67,9 @@ body {
 
 #code {
 	float: left;
-	width: 440px;
-	height: 400px;
-	color: #333;
+	width: 470px;
+	height: 450px;
+	color: #7734DB;
 	font-family: "Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
 	font-size: 15px;
 	line-height: 1.5
@@ -79,7 +80,8 @@ body {
 }
 
 #code .keyword {
-	color: #7f0055;
+	color: #3498DB;
+	text-align: center;
 	font-weight: bold
 }
 
@@ -88,11 +90,11 @@ body {
 }
 
 #code .space {
-	margin-left: 7px
+	margin-left: 7px;
 }
 
 #code .comments {
-	color: #3f7f5f
+	color: #000
 }
 
 #copyright {
